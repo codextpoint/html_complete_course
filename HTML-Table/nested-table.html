@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nested Table</title>
+</head>
+
+<body>
+    <h1>Html Nested Table</h1>
+    <table border="1" style="border-collapse: collapse; width:50%;">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Salary</th>
+                <th>
+
+                    <table border="1" style="width: 100%; border-collapse: collapse;">
+                        <caption>Address</caption>
+                        <thead>
+                            <tr>
+                                <th>City</th>
+                                <th>State</th>
+                                <th>Pin</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>100</td>
+                <td>Mukesh</td>
+                <td>10000</td>
+                <td>
+                    <table border="1" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    New Delhi
+                                </td>
+                                <td>
+                                    Delhi
+                                </td>
+                                <td>
+                                    110025
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Manohar</td>
+                <td>20000</td>
+                <td>
+                    <table border="1" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Bhopal
+                                </td>
+                                <td>
+                                    MP
+                                </td>
+                                <td>
+                                    230058
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Anil</td>
+                <td>50000</td>
+                <td>
+                    <table border="1" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Indore
+                                </td>
+                                <td>
+                                    MP
+                                </td>
+                                <td>
+                                    580056
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
